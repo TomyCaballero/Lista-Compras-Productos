@@ -28,8 +28,8 @@ function createCards(prods){
     prods.forEach(prod => {
         mainProds.insertAdjacentHTML("beforeend",
         `
-            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4 text-center">
-            <div class="card p-2 mt-4" style="width: 22rem; height:40rem;">
+            <div class="col-sm-4 col-md-6 col-lg-6 col-xl-4 col-xxl-4 text-center">
+            <div class="card d-flex justify-content-center" style="width: 20rem; height:40rem;">
                 <img src="${prod.image}" class="card-img-top img-thumbnail" alt="${prod.description}" style="height:20rem; width:18rem;">
             <div class="card-body">
                 <h5 class="card-title">${prod.title}</h5>

@@ -35,3 +35,6 @@
 .a {
     background-color: var(--azul-principal) !important;
 }
+.card {
+    margin: 0 auto;
+}
